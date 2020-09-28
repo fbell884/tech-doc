@@ -1,0 +1,43 @@
+body {
+  position: relative;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+#main-doc {
+  margin: 15px;
+}
+
+header {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+code {
+  margin: 25px;
+  font-size: 18px;
+  display: block;
+  white-space: pre-wrap;
+}
+
+.main-section {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 2000px) {
+  code {
+    color: red;
+    border: 3px solid blue;
+  }
+}
+
+@media (max-width: 2000px) {
+  code {
+    color: blue;
+    border: 3px solid red;
+  }
+}

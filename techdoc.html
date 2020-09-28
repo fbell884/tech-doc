@@ -1,33 +1,90 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="techdoc.css" rel="stylesheet" type="text/css" />
     <title>JavaScript Doc</title>
   </head>
   <body>
+    <h1>JavaScript Technical Documentation</h1>
+    <nav id="navbar">
+      <a href="" class="nav-link"></a>
+    </nav>
     <main id="main-doc">
-      <nav id="navbar">
-        <a href="" class="nav-link"></a>
-      </nav>
-      <section class="main-section">
-        <header></header>
-        <p></p>
-        <p></p>
-        <code> </code>
-        <li></li>
+      <section id="declare-var" class="main-section">
+        <header>Declaring Variables in JavaScript</header>
+        <p>
+          - The first line in this code is declaring a variable named: "myName".
+        </p>
+        <p>
+          - The second line in this code is assigning a string value of
+          "Francis" to "myName.
+        </p>
+        <code>
+          var myName; <br />
+          myName = "Francis";
+        </code>
+        <li>
+          <a
+            href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/declare-javascript-variables"
+            >Try this here!</a
+          >
+        </li>
       </section>
-      <section class="main-section">
-        <header></header>
-        <p></p>
-        <p></p>
-        <code> </code>
-        <li></li>
+      <hr />
+      <section id="js-numbers" class="main-section">
+        <header>Numbers in JavaScript</header>
+        <p>
+          - The first line of this code is declaring a number variable and
+          assigning it a value.
+        </p>
+        <p>
+          - The second and fourth lines of code provide the result of adding 1
+          to the "myNumber" variable.
+        </p>
+        <code>
+          var myNumber = 10; <br />
+          myNumber = myNumber + 1; <br />
+          // The "++" operator provides the same result as the code above <br />
+          myNumber++;
+        </code>
+        <li>
+          <a
+            href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/increment-a-number-with-javascript"
+            >Try this here!</a
+          >
+        </li>
       </section>
-      <section class="main-section">
-        <header></header>
-        <p></p>
-        <p></p>
-        <code> </code>
-        <li></li>
+      <hr />
+      <section id="if-statements" class="main-section">
+        <header>If-Else Statements in JavaScript</header>
+        <p>- Here is an example of an If-Statement in JavaScript</p>
+        <p>
+          - In this code, there is a "num" variable. If this number is great
+          than 15, the code returns the string: "Bigger than 15" <br />
+          - If the number is less than 5, it returns the string "Smaller than 5"
+          <br />
+          - If the number does not match these two conditions (if it is in
+          between 5 and 15), it returns "Between 5 and 15"
+        </p>
+        <code>
+          if (num > 15) <br />
+          { <br />
+          return "Bigger than 15"; <br />
+          } <br />
+          else if (num < 5) <br />
+          { <br />
+          return "Smaller than 5"; <br />
+          } <br />
+          else { <br />
+          return "Between 5 and 15"; <br />
+          }
+        </code>
+        <li>
+          <a
+            href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/introducing-else-if-statements"
+            >Try this here!</a
+          >
+        </li>
       </section>
       <section class="main-section">
         <header></header>
