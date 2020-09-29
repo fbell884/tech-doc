@@ -4,11 +4,28 @@
     <link href="techdoc.css" rel="stylesheet" type="text/css" />
     <title>JavaScript Doc</title>
   </head>
-  <body>
+  <body id="top-page">
     <h1>JavaScript Technical Documentation</h1>
-    <nav id="navbar">
-      <a href="" class="nav-link"></a>
+    <h2>Some basic JavaScript Syntax!</h2>
+    <nav class="nav-bar">
+      <div class="nav-link">
+        <a href="#top-page">Top of Page</a>
+      </div>
+      <div class="nav-link">
+        <a href="#js-numbers">Numbers in JavaScript</a>
+      </div>
+      <div class="nav-link">
+        <a href="#if-statements">If-Else Statements</a>
+      </div>
+      <div class="nav-link">
+        <a href="#arrays">Arrays</a>
+      </div>
+      <div class="nav-link">
+        <a href="#for-loop">For-Loops</a>
+      </div>
     </nav>
+    <br />
+    <br />
     <main id="main-doc">
       <section id="declare-var" class="main-section">
         <header>Declaring Variables in JavaScript</header>
@@ -86,19 +103,41 @@
           >
         </li>
       </section>
-      <section class="main-section">
-        <header></header>
-        <p></p>
-        <p></p>
-        <code> </code>
-        <li></li>
+      <section id="arrays" class="main-section">
+        <header>Arrays in JavaScript</header>
+        <p>- Here is an example of using arrays in JavaScript</p>
+        <p>- It can be used to store several pieces of data into one place</p>
+        <code>
+          var sandwich = []; <br />
+          sandwich = ["peanut butter", "jelly", "bread"] <br />
+          console.log(sandwich[0]); // This prints "peanut butter" to console!
+        </code>
+        <li>
+          <a
+            href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/store-multiple-values-in-one-variable-using-javascript-arrays"
+            >Try this here!</a
+          >
+        </li>
       </section>
-      <section class="main-section">
-        <header></header>
-        <p></p>
-        <p></p>
-        <code> </code>
-        <li></li>
+      <section id="for-loop" class="main-section">
+        <header>For-Loops in JavaScript</header>
+        <p>- Here is an example of a for-loop in JavaScript</p>
+        <p>
+          - This loop will iterate until the addition of the variable "i"
+          reaches 10 and prints each result to the console.
+        </p>
+        <code>
+          for (var i = 0; i <= 11; i++;) <br />
+          { <br />
+          console.log(i); <br />
+          } <br />
+        </code>
+        <li>
+          <a
+            href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-for-loops"
+            >Try this here!</a
+          >
+        </li>
       </section>
     </main>
   </body>
